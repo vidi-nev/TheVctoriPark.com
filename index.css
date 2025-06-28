@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.button{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 10px; /* Расстояние от верхней грани */
+    right: 10px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
+
+.my-button{
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 10px; /* Уменьшаем отступы для более округлой формы */
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 10px; /* Устанавливаем радиус для овальной формы */
+            background-color: #161730;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+}
+
+.my-button:hover {
+    background-color: #0008ff; /* Цвет фона при наведении */
+}
+
+::selection {
+  background: #000000; /* Красный фон выделения */
+  color: rgb(255, 255, 255); /* Белый текст на выделении */
+}
+
+.a{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 60px; /* Расстояние от верхней грани */
+    left: 600px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.a:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
+
+.b{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 60px; /* Расстояние от верхней грани */
+    left: 700px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.b:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
+
+.v{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 60px; /* Расстояние от верхней грани */
+    left: 800px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.v:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
+
+.g{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 60px; /* Расстояние от верхней грани */
+    left: 900px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.g:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
+
+.d{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 60px; /* Расстояние от верхней грани */
+    left: 1000px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.d:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
+
+.e{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 60px; /* Расстояние от верхней грани */
+    left: 1100px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.e:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
+
+.ee{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 60px; /* Расстояние от верхней грани */
+    left: 1200px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ee:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
