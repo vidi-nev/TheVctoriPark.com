@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    height: 100vh; /* Высота на весь экран */
+    background: linear-gradient(135deg, #ffffff, #ffffff, #ffffff), 
+                radial-gradient(circle, #fff0 0%, #000 70%);
+    background-size: cover;
+    overflow: hidden; /* Скрыть переполнение */
+}
+
+
+
+    p {
+        color: rgb(255, 255, 255); /* Устанавливаем цвет текста белым */
+  text-align: center; /* Выравнивание текста по центру */
+            font-size: 1.5em; /* Размер шрифта */
+            z-index: 1; /* Выставляем текст на передний план */
+    }
+
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center; /* Выравнивание заголовка по центру */
+    margin-bottom: 20px; /* Отступ снизу заголовка */
+    z-index: 1;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.button{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 60px; /* Расстояние от верхней грани */
+    right: 800px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
+
+ 
+
+h2{
+    text-align: center;
+}
+
+::selection {
+  background: #ff0000; /* Красный фон выделения */
+  color: rgb(0, 0, 0); /* Белый текст на выделении */
+}
+
+.buttan{
+    position: absolute; /* Устанавливаем абсолютное позиционирование для кнопки */
+    top: 60px; /* Расстояние от верхней грани */
+    right: 950px; /* Расстояние от правой грани */
+     margin: 10px;
+    display: inline-block;
+    padding: 17px 55px;
+    color: #f9fafb;
+    text-decoration: none;
+    border-radius: calc(infinity * 1px);
+    background-color: #1f293700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttan:hover {
+    background-color: #1f2937; /* Цвет фона при наведении */
+}
+
+
+
